@@ -58,7 +58,7 @@ var word      = document.getElementById('word');
 var theLetter = document.getElementById('raad');
 
 function checkString() {
-  if (raadInput.value.length === 5) {
+  if (theLetter.value.length === 5) {
     check();
   } else {
     alert("het moet een 5 letter woord zijn")
